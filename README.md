@@ -55,3 +55,6 @@ Test case: Time(24, 0, 0)
 
 TFX - Целиот израз е точен, затоа што првиот израз е точен.
 Test case: Time(24, 100, 0)
+
+
+*За исклучоците користев assertThrows од класа RuntimeException, а потоа за проверка assertTrue,заедно со String методата contains.
